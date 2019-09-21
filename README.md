@@ -1,6 +1,9 @@
-## Vue-LTA Project##
+## Vue-LTA Project
 
-### Basix Admin Project ###
+Deployment at
+https://nxh912.github.io/vuelta/basix-admin/index.html
+
+### Basix Admin Project
 see basix-admin/README.md
 
 ### LTA-API
