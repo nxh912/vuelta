@@ -6,7 +6,7 @@
             icon="icon-lg pe-7f-cart"
             bgclass="bg-flat-color-1"
             symbol="$"
-            counter=23569
+            counter=23560
             title="Revenue"
         >
         </info>
