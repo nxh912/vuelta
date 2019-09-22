@@ -19,7 +19,7 @@
       GoogleMapsLoader.load((google) => {
         /* eslint-disable no-new */
         new google.maps.Map(this.$el, {
-          center: new google.maps.LatLng(44.5403, -78.5463),
+          center: new google.maps.LatLng(1.3805257,103.8259144),
           zoom: 8,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         })
