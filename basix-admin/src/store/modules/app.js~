@@ -1,7 +1,7 @@
 const state = {
   config: {
     googleMaps: {
-      apiKey: 'AIzaSyC2dZZk5DBMeMQwlAfgT-JIJOik1WknY-E'
+      apiKey: 'AIzaSyBNAqPrTQoz9P4NBlDDyfxrnKiafkaL8iQ'
     },
     windowMatchSizeLg: '(min-width: 992px)',
   },

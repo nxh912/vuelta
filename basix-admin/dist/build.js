@@ -19230,7 +19230,7 @@ const store = new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
 const state = {
   config: {
     googleMaps: {
-      apiKey: 'AIzaSyBNAqPrTQoz9P4NBlDDyfxrnKiafkaL8iQ'
+      apiKey: 'AIzaSyC2dZZk5DBMeMQwlAfgT-JIJOik1WknY-E'
     },
     windowMatchSizeLg: '(min-width: 992px)',
   },
