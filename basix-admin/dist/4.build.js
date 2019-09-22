@@ -35,7 +35,7 @@ exports.push([module.i, ".leaflet-maps-page .card-body{height:600px;width:100%;m
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_LeafletMap_vue__ = __webpack_require__(994);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_06cde832_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_LeafletMap_vue__ = __webpack_require__(1131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7be3b23a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_LeafletMap_vue__ = __webpack_require__(1131);
 function injectStyle (ssrContext) {
   __webpack_require__(1125)
 }
@@ -55,7 +55,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_LeafletMap_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_06cde832_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_LeafletMap_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7be3b23a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_LeafletMap_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -77,7 +77,7 @@ var content = __webpack_require__(1126);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("2ecdeb3d", content, true, {});
+var update = __webpack_require__(2)("475cce9b", content, true, {});
 
 /***/ }),
 
@@ -273,13 +273,13 @@ var Component = normalizeComponent(
     //    L.Icon.Default.imagePath = 'assets/vendor/leaflet' TODO: make it work with webpack
     __WEBPACK_IMPORTED_MODULE_1_leaflet__["Icon"].Default.imagePath = 'https://unpkg.com/leaflet@1.0.3/dist/images';
 
-    var map = __WEBPACK_IMPORTED_MODULE_1_leaflet__["map"](this.$el).setView([51.505, -0.09], 13);
+    var map = __WEBPACK_IMPORTED_MODULE_1_leaflet__["map"](this.$el).setView([1.3805551, 103.8422801], 13);
 
     __WEBPACK_IMPORTED_MODULE_1_leaflet__["tileLayer"]('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    __WEBPACK_IMPORTED_MODULE_1_leaflet__["marker"]([51.5, -0.09]).addTo(map).bindPopup('Leaflet Map Info <br>A pretty CSS3 popup.<br> Easily customizable.').openPopup();
+    __WEBPACK_IMPORTED_MODULE_1_leaflet__["marker"]([1.3805551, 103.8422801]).addTo(map).bindPopup('Leaflet Map Info <br>Block 638<br> Ang Mo Kio Ave 6').openPopup();
   }
 });
 
